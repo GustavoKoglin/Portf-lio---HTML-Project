@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 10vh;
+    background-color: #f3f5f8
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    z-index: 100;
+    background: #ccc;
+}
+
+.logo{
+    padding: 15px;
+    display: flex;
+    font-size: 35px;
+    font-weight: 800;
+    color: #3d535f;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.navItems{
+    display: flex;
+}
+
+.navItems li{
+    display: flex;
+    padding: 20px;
+    list-style: none;
+    margin: 0 5px;
+}
+
+.navItems li a{
+    font-size: 25px;
+    color: #3d535f;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+nav #links{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+nav li a:hover{
+    color: #7f00ff;
+}
+
+h1{
+    padding: 100px;
+    display: flex;
+    font-size: 7em;
+    font-weight: 800;
+    color: #3d535f;
+    letter-spacing: 2px;
+}
+
+a{
+    list-style: none;
+}
+
+.multiText{
+    color: #7f00ff;
+    text-transform: capitalize;
+    padding: 30px;
+}
+
+div .ntns button 
+
+b{
+    color: #7f00ff;
+}
+
+img{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+}
+
+ul li img label{
+    list-style: none;
+    border-radius: 15px;
+    border-color: #3d535f;
+}
+
+.linkedinHeader, .githubHeader{
+    margin-top: -95px;
+    margin-left: 20px;
+}
+
+#sobre{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    width: 45%;
+    height: 45%;
+    text-align: justify;
+    padding: 50px;
+    text-indent: 25px;
+}
+
+.sobre{
+    margin-top: 90px;
+}
+
+.h2Class{
+    margin-top: -215px;
+    margin-left: 70%;
+    font-size: 2em;
+    font-weight: 800;
+    color: #3d535f;
+    letter-spacing: 2px;
+}
+
+#hobbies ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.outrosConhecimentos{
+    margin-top: 215px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 800;
+    color: #3d535f;
+    letter-spacing: 2px;
+}
+
+#outrosConhecimentos ul li{
+    list-style: none;
+}
+
+#outrosConhecimentos ul li img{
+    display: flex;
+    flex-flow: row wrap;   
+}
+
+.arduinoClass{
+    margin-top: 5px;
+    margin-left: 150px;
+    width: 150px;
+    height: 200px;
+}
+
+.gitClass{
+    margin-top: -175px;
+    margin-left: 400px;   
+    width: 150px;
+    height: 150px;
+}
+
+.githubClass{
+    margin-top: -150px;
+    margin-left: 675px;
+    width: 150px;
+    height: 150px;
+}
+
+.gitlabClass{
+    height: 200px;
+    width: 200px;
+    margin-top: -175px;
+    margin-left: 950px;
+}
+
+.aprenderText{
+    text-align: center;
+    padding: 30px;
+    font-size: 2em;
+    font-weight: 800;
+    color: #3d535f;
+    letter-spacing: 2px;text-align: center;
+}
+
+#aprenderSection ul li{
+    list-style: none;
+}
+
+.netClass{
+    margin-top: 5px;
+    margin-left: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+.cClass{
+    margin-top: -150px;
+    margin-left: 300px;
+    width: 150px;
+    height: 150px;
+}
+
+.cSharpClass{
+    margin-top: -150px;
+    margin-left: 550px;
+    width: 150px;
+    height: 150px;
+}
+
+.cPlusPlusClass{
+    margin-top: -150px;
+    margin-left: 800px;
+    width: 150px;
+    height: 150px;
+}
+
+.dartClass{
+    margin-top: -150px;
+    margin-left: 1050px;
+    width: 150px;
+    height: 150px;
+}
+
+.flutterClass{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+.javaClass{
+    margin-top: -150px;
+    margin-left: 300px;
+    width: 150px;
+    height: 150px;
+}
+
+.kotlinClass{
+    margin-top: -150px;
+    margin-left: 550px;
+    width: 150px;
+    height: 150px;
+}
+
+.phpClass{
+    margin-top: -150px;
+    margin-left: 800px;
+    width: 150px;
+    height: 150px;
+}
+
+.swiftClass{
+    margin-top: -150px;
+    margin-left: 1050px;
+    width: 150px;
+    height: 150px;
+}
+
+footer{
+    padding: 17px;
+    text-decoration: solid;
+    text-align: center;
+    font-weight: bold;
+    background-color: #ccc;
+}
